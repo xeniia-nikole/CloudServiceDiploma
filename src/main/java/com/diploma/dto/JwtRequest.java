@@ -20,4 +20,9 @@ public class JwtRequest implements Serializable {
     public JwtRequest(String authToken) {
         this.authToken = authToken;
     }
+
+    public JwtRequest(String login, String password) {
+        this.login = login;
+        this.password = password;
+    }
 }
