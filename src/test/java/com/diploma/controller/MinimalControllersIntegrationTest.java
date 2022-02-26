@@ -1,7 +1,5 @@
 package com.diploma.controller;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import com.diploma.dto.JwtRequest;
 import com.google.gson.Gson;
 import org.junit.jupiter.api.Assertions;
